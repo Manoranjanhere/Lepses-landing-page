@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+}
+.video{
+    position: absolute;
+    z-index:-1;
+}
+.email
+{
+    position: relative;
+    margin-top: 15px;
+}
+.btn
+{
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: transparent;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.548);
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    color: azure;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style:none;
+    margin: 0 23px;
+    font-size: larger;
+}
+nav ul li a{
+    color:aliceblue;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: aqua;
+    font-size: 1.5rem;
+}
+.left{
+    display: flex;
+    font-size:35px;
+    text-align: center;
+    color:rgb(255, 255, 255);
+   
+    }
+.imgg{
+    left:30px;
+    justify-content: space-around;
+    mix-blend-mode: screen;
+}
+.events{
+    position:absolute;
+    color: aliceblue;
+    font-size: 50px;
+    margin-top:80px;
+    margin-left:20px;
+}
+.first{
+    
+    display: flex;
+    justify-content:space-around;
+    color:aliceblue;
+    font-size: 50px;
+    
+}
+.purple{
+    color:aqua
+}
+.leftsection{
+    font-size: 80px;
+    margin:100px;
+    text-align:center;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    
+}
+.owl{
+    width: 120px;
+    background:transparent;
+    mix-blend-mode: screen;
+    transition:0.s;
+}
+.search{
+    margin-right: 30px;
+}
+.form{
+    margin-top: 380px;
+    width:250px;
+    position:absolute;
+    left: 1200px;
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    background:linear-gradient(to top, rgba(0, 0, 0, 0.79)50%,rgba(0, 0, 0, 0)) ;
+    box-shadow: 1px 2px 10px 5px white;
+
+}
+.form a{
+    color: rgb(117, 227, 216);
+    font-size: 20px;
+}
+.form div a:hover{
+    color: rgb(230, 237, 244);
+    
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    color:aliceblue;
+
+}
+.button{
+    width:250px;
+    height:35px;
+    font-size: 25px;
+    background-color:rgb(10, 3, 85);
+}
+.link{
+    text-align: center;
+    font-size:20px;
+}
+.footer{
+    position: absolute;
+    justify-content: center;
+    margin-top:580px;
+    box-shadow:1px,2px,10px,white;
+    background-size: 100% 100%;
+    mix-blend-mode:difference;
+    left: 10px;
+    width:1500px;
+    height:200px;
+
+}
+
+.classteach{
+    width: 300px;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 20px;
+    height: 350px;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 1px 2px 10px 5px rgb(10, 172, 194);
+    float:left;
+}
+
+@media (min-aspect-ratio: 16/9){
+    .video{
+        width: 100%;
+        height :auto;
+        
+    }
+}
+    @media (max-aspect-ratio: 16/9){
+        .video{
+            width: auto;
+            height:100%;
+        }
+}
+@media screen and(max-width:600px){
+    .video{
+    font:10px;
+    }
+}
